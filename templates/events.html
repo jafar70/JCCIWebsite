@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JCCI Zion Chapel</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>    
+<body>
+    <!------ nav bar --------> 
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="topnavbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">JCCI Zion Chapel</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="/">Home</a></li>     
+                <li><a href="/aboutus">About Us</a></li>
+                <li class="active"><a href="/events">Events</a></li>
+                <li><a href="/location">Location</a></li>        
+                <li><a href="/contactus">Contact Us</a></li>
+              </ul>
+              
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+    <!---Jumbotron--->
+    <div class="container">
+        <div class="jumbotron jumbotron-special2">
+            <center><h1 style="color:black;">Events</h1></center>
+        </div>
+    </div>
+    <!------main body----------->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!------- Google Calender iframe------>
+                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://calendar.google.com/calendar/embed?src=calendarlpc10@gmail.com"></iframe>
+            </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!----Footer---->
+    <footer class="footer">
+          <div class="container">
+            <div class="col-sm-3">
+              <p style="color:white;"> © 2016 JCCI Zion Chapel</p>
+            </div>
+          <div class="col-sm-3">
+            <div class="foot-header">
+              Social Media
+            </div>
+            <div class="foot-links">
+              <a href="https://twitter.com/MarksGateChurch"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="https://www.facebook.com/zionchapel.jcci?fref=nf"><i class="fa fa-facebook-official fa-2x"></i></a>
+              <a href="https://www.youtube.com/channel/UCzLaCXUWGsO5u19Uno8pwfw"><i class="fa fa-youtube fa-2x"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-3">
+           <div class="foot-header">
+             Address
+           </div>
+           <div class="foot-links">
+             <p id="address">Mark's Gate Community Centre<br>
+             Rose Lane, Romford <br>
+             Essex <br>
+             RM6 5NJ <br></p>
+             
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="foot-header">
+             Contact Details
+           </div>
+           <div class="foot-links">
+             <p style="color:white;">Telephone: 07961 592 482 & 0208 598 9186</p>
+           </div>
+         </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+</body>   
+</html>

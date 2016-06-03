@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JCCI Zion Chapel</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <!------ nav bar --------> 
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="topnavbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">JCCI Zion Chapel</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-left">
+                <li class="active"><a href="/">Home</a></li>     
+                <li><a href="/aboutus">About Us</a></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/location">Location</a></li>        
+                <li><a href="/contactus">Contact Us</a></li>
+              </ul>
+              
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+    
+    <!------ carousel slideshow------->
+    <div class="container">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="http://conwayalliancechurch.s3.amazonaws.com/2014/04/hp-loving.jpg" alt="hope">
+            </div>
+            
+            <div class="item">
+              <img src="http://www.brightonassembly.org/resources/bannerevents.jpg" alt="events">
+              <div class="carousel-caption">
+                <a href="/events" class="btn btn-primary btn-lg">Events</a>
+              </div>
+            </div>
+            
+            <div class="item">
+              <img src="http://www.rccgvictoryhousehollywood.com/wp-content/uploads/2013/03/Cutoutchoir-peg-1200x600.jpg" alt="team">
+              <div class="carousel-caption">
+                <a href="/aboutus" class="btn btn-primary btn-lg">Our Team</a>
+              </div>
+            </div>
+
+          <!-- Controls -->
+          
+        </div> <!-- end of carousel slideshow-->
+    </div>
+    <!------- main body----->
+        <div class="row">
+            <div class="col-md-8">
+                <center><h2>Welcome</h2></center>
+                <p>We are honoured that you are visiting the JCCI Zion Chapel web site. We are a Pentecostal church in fellowship with Assemblies of God in the UK. Our Sunday meetings are characterised by lively music and inspiring, helpful Biblical teaching. As a church we are all about knowing Jesus Christ and making him known.<br><br> Our desire is to spread the Word of God, so that we can transform our city, this nation and even the world! We are a community of people who are from all walks of life and who are at different stages in their relationships with God. JCCI Zion Chapel is a blend of new believers and established Christians.<br><br>Most importantly we are a people hungry for more of God in our lives.If you are looking for a place to connect with God and to connect with his people, this is the place for you. We are looking forward to meeting you hopefully, but in the meantime if you have any questions about anything please feel free to contact us.</p>
+                <center><div class="video-container">
+                <iframe src="https://www.youtube.com/embed/I6TjCqKA_Sc" frameborder="0" width="720px" height="355px"></iframe>
+                </div></center>
+            </div>
+            
+            <div class="col-md-4">
+               <br><br>
+               <!----twitter widget---->
+                <a class="twitter-timeline" href="https://twitter.com/MarksGateChurch" data-widget-id="717257831867674625">Tweets by @MarksGateChurch</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-8">
+           <br>
+            <figure>
+                <img src="http://billiepippinbeenedillon.last-memories.com/upload/Gallery/Lamar%20Baptist%20Church.jpg" alt="pastor" height="500px" width="730px" class="img-responsive"/>
+            </figure>
+            <br>
+           </div>
+           <div class="col-md-4">
+             <br><br>
+              <center>
+               <!-- JavaScript Bible plug-in----->
+               <!-- Verse of the Day. https://biblia.com/plugins/verseoftheday --><biblia:verseoftheday resource="kjv1900" width="300" height="250" singleImage="false" theme="colorbar" variant="dark"></biblia:verseoftheday><!-- If you’re including multiple Biblia widgets, you only need this script tag once --><script src="//biblia.com/api/logos.biblia.js"></script><script>logos.biblia.init();</script>
+              </center><br><br><br>
+              <center>
+              <figure>
+                  <img src="http://luciehughesmemorialcharity.com/wp-content/uploads/2015/06/paypal-donate.jpg" alt="donate via paypal" height="255px" width="350px" class="img-responsive"/>
+              </figure>
+              </center>
+           </div>
+        </div>
+    </div>
+    <!----- end of body----->
+    
+    <!-----Footer ------->
+   <footer class="footer">
+          <div class="container">
+            <div class="col-sm-3">
+              <p style="color:white;"> © 2016 JCCI Zion Chapel</p>
+            </div>
+          <div class="col-sm-3">
+            <div class="foot-header">
+              Social Media
+            </div>
+            <div class="foot-links">
+              <a href="https://twitter.com/MarksGateChurch"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="https://www.facebook.com/zionchapel.jcci?fref=nf"><i class="fa fa-facebook-official fa-2x"></i></a>
+              <a href="https://www.youtube.com/channel/UCzLaCXUWGsO5u19Uno8pwfw"><i class="fa fa-youtube fa-2x"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-3">
+           <div class="foot-header">
+             Address
+           </div>
+           <div class="foot-links">
+             <p id="address">Mark's Gate Community Centre<br>
+             Rose Lane, Romford <br>
+             Essex <br>
+             RM6 5NJ <br></p>
+             
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="foot-header">
+             Contact Details
+           </div>
+           <div class="foot-links">
+             <p style="color:white;">Telephone: 07961 592 482 & 0208 598 9186</p>
+           </div>
+         </div>
+        </div>
+    </footer>
+    <!----end of footer----->
+    
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+</body>
+</html>

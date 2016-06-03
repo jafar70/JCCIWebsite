@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JCCI Zion Chapel</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>    
+<body>
+    <!------ nav bar --------> 
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="topnavbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">JCCI Zion Chapel</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="/">Home</a></li>     
+                <li class="active"><a href="/aboutus">About Us</a></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/location">Location</a></li>        
+                <li><a href="/contactus">Contact Us</a></li>
+              </ul>
+              
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+    <!---Jumbotron--->
+    <div class="container">
+      <div class="jumbotron jumbotron-special">
+        <center><h1 style="color:black;">About Us</h1></center>
+      </div>
+    </div>
+    
+    <!------- main body----->
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+           <h2>Brief History</h2>
+           <p>JCCI Zion Chapel started in 2001 as a small Worship and Bible study group in a living room in Marks Gate, Dagenham. Since its inception the church experienced phenomenal growth, and has now grown to become a group of strong believers who come together to worship as one body in Christ.</p>
+           <hr>
+           <h2>Our Vision</h2>
+           <p>Building a spiritual house for spiritual sacrifices
+            Our Beliefs
+            JCCI Zion Chapel accepts the sacred words of the 66 Books of the Bible as the inspired revelation of God, as the sheer anchor of Faith and Eternal Hope and as the perfect creed to the beliefs and deed for the believers and also for the general unity of the Church.</p>
+            <hr>
+           <div>
+               <h2 id="jesus" style="color:blue;">REASONS WHY YOU NEED JESUS</h2>
+               <p id="jesus"><b>Jesus Loves you! He desires to have a relationship with you, to give you a life full of jo and purpose. Why do you need him in your life?</p></b><br>
+               <p><span>1</span><b>You have a past........</b></p>
+               <p>You can't go back but he can. The bible says, "Jesus Christ the same yesterday today and forever" (Herbrew 13:8). He can walk into those places of sin and failure, wipe the slate clean and give you a new beginning.</p><br><br>
+               <p><span>2</span><b>Because you need a friend</b></p>
+               <p>Jesus knows the worst of you, yet he believes in the best. Why? Because he see you not as you are, but as you will be when he gets through with you. What a friend!</p><br><br>
+               <p><span>3</span><b>Because he holds the future</b></p>
+               <p>Who else are you going to trust? In his hands you are safe and secure- today, tomorrow, and for eternity. His word says "For I know the plans I have for you.... Plans for good and not for evil, to give you a future and a hope. In those days when you pray I will listen" (Jeremiah 26:11-13 TLB)</p>
+           </div>
+           <hr>
+           <center><h2>Meet Our Team</h2>
+           <figure>
+               <img src="{{ url_for('static', filename='images/team.jpg') }}" alt="team" class="img-responsive" width="850px"/>
+           </figure></center>
+           <br>
+           <h2 style="text-align:center;":>Branch Pastors</h2>
+           <br>
+           <div class="row row-centered">
+           <div class="col-md-3 col-centered">
+          <div class="thumbnail">
+            <img src="{{ url_for('static', filename='images/pastorswife.jpg') }}" alt="pastor's wife">
+              <div class="caption">
+                <center><h4>Mrs Jesubayode</h4></center>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-3 col-centered">
+          <div class="thumbnail">
+            <img src="{{ url_for('static', filename='images/pastor.jpg') }}" alt="pastor">
+              <div class="caption">
+                <center><h4>Mr Jesubayode</h4></center>
+            </div>
+          </div>
+        </div>
+          </div>
+       
+    </div>
+    </div>
+    </div> 
+    
+    <!-----Footer ------->
+    <footer class="footer">
+          <div class="container">
+            <div class="col-sm-3">
+              <p style="color:white;"> © 2016 JCCI Zion Chapel</p>
+            </div>
+          <div class="col-sm-3">
+            <div class="foot-header">
+              Social Media
+            </div>
+            <div class="foot-links">
+              <a href="https://twitter.com/MarksGateChurch"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="https://www.facebook.com/zionchapel.jcci?fref=nf"><i class="fa fa-facebook-official fa-2x"></i></a>
+              <a href="https://www.youtube.com/channel/UCzLaCXUWGsO5u19Uno8pwfw"><i class="fa fa-youtube fa-2x"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-3">
+           <div class="foot-header">
+             Address
+           </div>
+           <div class="foot-links">
+             <p id="address">Mark's Gate Community Centre<br>
+             Rose Lane, Romford <br>
+             Essex <br>
+             RM6 5NJ <br></p>
+             
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="foot-header">
+             Contact Details
+           </div>
+           <div class="foot-links">
+             <p style="color:white;">Telephone: 07961 592 482 & 0208 598 9186</p>
+           </div>
+         </div>
+        </div>
+    </footer>
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+</body>
+</html>

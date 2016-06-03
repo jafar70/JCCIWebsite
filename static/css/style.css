@@ -1,0 +1,104 @@
+
+body{
+  padding-top:70px;
+}
+
+.footer{
+  background:black;
+  color:white;
+  padding-top:10px;
+}
+
+.foot-header{
+  color:	#F8F8FF;
+  font-weight:bold;
+  text-decoration: underline;
+  font-size:17px;
+  padding-bottom:10px;
+}
+
+#address{
+  color:	#F8F8FF;
+}
+
+.video{
+  padding-top: 13px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 00px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pastor{
+    padding-top: 20px;
+}
+
+.jumbotron-special{
+   background-image: url("http://www.nonprofitcpa.com/wp-content/uploads/2012/07/church-banner-test-2.jpg");
+   background-size: cover;
+   color:black;
+}
+
+.jumbotron-special2{
+    background-image: url("http://www.brevardcounty.us/images/default-album/calendar-of-events.jpg?sfvrsn=2");
+    background-size: cover;
+    color:black;
+}
+
+.jumbotron-special3{
+    background-image: url("http://desertharvestchurch.com/wp-content/uploads/2015/01/location-banner-960x250.jpg");
+    background-size: cover;
+    color:black;
+}
+
+.jumbotron-special5{
+    background-image: url("http://www.freelargeimages.com/wp-content/uploads/2014/12/Black_background-4.jpg");
+    color: white;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+#jesus{
+    text-align: center;
+}
+
+span {
+    float: left;
+    width: 0.9em;
+    font-size: 700%;
+    font-family: algerian, courier;
+    line-height: 80%;
+    color: blue;
+}
+
+p {
+    font-size: 17px;
+    color:black;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
